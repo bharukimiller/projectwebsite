@@ -1,0 +1,7 @@
+.header{
+    display: flex;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
