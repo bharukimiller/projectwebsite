@@ -6,12 +6,15 @@ import './Header.css';
 
 const Header = () => {
     return(
+    <div>
         <div className="header">
-            <BurgerMenu className="burgerMenu"/>
-            <Main />
-            <DarkModeToggle className="darkMode"/>
+            <BurgerMenu className="burgerMenu" />
+            <DarkModeToggle className="darkMode" />
         </div>
-        
+        <div>
+            <Main />
+        </div>
+    </div>
     );
 };
 
