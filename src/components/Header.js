@@ -4,18 +4,23 @@ import Main from './webPages/Main';
 import DarkModeToggle from './darkModeToggle/DarkModeToggle';
 import './Header.css';
 
-const Header = () => {
-    return(
-    <div>
-        <div className="header">
-            <BurgerMenu className="burgerMenu" />
-            <DarkModeToggle className="darkMode" />
-        </div>
-        <div>
-            <Main />
-        </div>
-    </div>
-    );
+
+class Header extends React.Component{
+
+
+      render() {
+        return(
+            <div>
+                <div className="header">
+                    <BurgerMenu className="burgerMenu" />
+                    <DarkModeToggle className="darkModeToggle" />
+                </div>
+                <div>
+                    <Main />
+                </div>
+            </div>
+        );
+      }
 };
 
 export default Header;

@@ -10,14 +10,29 @@ body.light-mode {
   background-color: #fff;
   color: #333;
   transition: background-color 0.3s ease;
+
+  .header {
+    height: 125px;
+    background-color: #b76e79;
+    margin: 0px;
+    color: #f5f5dc;
+  }
 }
 
 body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
+  transition: background-color 0.3s ease;
 
   .navbar {
-    background-color: #1b2938;
+    background-color: #301934;
+  }
+
+  .header {
+    height: 125px;
+    background-color: #1e1022;
+    margin: 0px;
+    color: #f5f5dc;
   }
 
   .dark-mode-toggle > button {
