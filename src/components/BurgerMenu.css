@@ -148,16 +148,7 @@ button {
 }
 
 .bm-menu {
-  background:   ;
-
-  a {
-    color: #b8b7ad;
-
-    &:   over,
-    &:focus {
-      color: #c94e50;
-    }
-  }
+  background: #b8b7ad;
 }
 
 .bm-item-list a {
